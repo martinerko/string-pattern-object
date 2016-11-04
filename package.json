@@ -1,11 +1,20 @@
 {
   "name": "string-pattern-object",
   "version": "0.1.0",
-  "description": "",
+  "description": "Parse variables from string based on the pattern and export them as an object.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.1.2"
   },
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "test": "mocha test/*.spec.js"
+  },
+  "keywords": [
+    "string",
+    "pattern",
+    "object"
+  ],
+  "author": "martinerko",
+  "license": "MIT"
 }
